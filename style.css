@@ -1,0 +1,27 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.urek{
+    position: fixed;
+    top: -5vh;
+    transform: translateY(0);
+    animation: fall 3s linear forwards;
+    font-size: 30px;
+    color: red;
+}
+@keyframes fall{
+ 
+    to{
+        transform: translateY(105vh);
+    }
+}
